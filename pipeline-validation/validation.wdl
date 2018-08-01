@@ -22,9 +22,9 @@ task vcf_evaluation {
 	File bed
 	
 	command {	
-	opt/hap.py/bin/hap.py truth_vcf \
-	query_vcf \
-	-f bed \
+	opt/hap.py/bin/hap.py ${truth_vcf} \
+	${query_vcf} \
+	-f ${bed} \
 	-o test
 	}
 
