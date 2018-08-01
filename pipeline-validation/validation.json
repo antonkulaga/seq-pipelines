@@ -1,0 +1,5 @@
+{
+"vcf_evaluation.bed":"/home/liza/validation/PG_Conf_chr21.bed.gz"
+"vcf_evaluation.truth_vcf":"/home/liza/validation/PG_NA12878_chr21.vcf.gz"
+"vcf_evaluation.query_vcf":"/home/liza/validation/NA12878_chr21.vcf.gz"
+}
