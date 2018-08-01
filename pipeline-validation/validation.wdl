@@ -19,7 +19,7 @@ task vcf_evaluation {
 
 	File truth_vcf
 	File query_vcf
-        File bed
+	File bed
 	
 	command {	
 	opt/hap.py/bin/hap.py truth_vcf \
