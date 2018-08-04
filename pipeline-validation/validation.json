@@ -1,6 +1,6 @@
 {
-"vcf_evaluation.bed":"/pipelines/validation/PG_Conf_chr21.bed.gz"
-"vcf_evaluation.truth_vcf":"/pipelines/validation/PG_NA12878_chr21.vcf.gz"
-"vcf_evaluation.query_vcf":"/pipelines/validation/NA12878_chr21.vcf.gz"
-"vcf_evaluation.prefix":"test"
+"validation_pipeline.bed":"/pipelines/validation/PG_Conf_chr21.bed.gz",
+"validation_pipeline.truth_vcf":"/pipelines/validation/PG_NA12878_hg38-chr21.vcf.gz",
+"validation_pipeline.query_vcf":"/pipelines/validation/NA12878_chr21.vcf.gz",
+"validation_pipeline.prefix":"test"
 }

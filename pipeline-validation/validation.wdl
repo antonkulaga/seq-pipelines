@@ -8,10 +8,9 @@ workflow validation_pipeline {
                 input:
                         truth_vcf = truth_vcf,
                         query_vcf = query_vcf,
-                        bed = bed
+                        bed = bed,
                         prefix = prefix
         }
-
 }
 
 task vcf_evaluation {
@@ -22,10 +21,7 @@ task vcf_evaluation {
         String prefix
 
         command {
-        /opt/hap.py/bin/hap.py ${truth_vcf} \
-        ${query_vcf} \
-        -f ${bed} \
-        -o ${prefix}
+        /opt/hap.py/bin/hap.py ${truth_vcf} ${query_vcf} -f ${bed} -o ${prefix}
         }
 
         runtime {
