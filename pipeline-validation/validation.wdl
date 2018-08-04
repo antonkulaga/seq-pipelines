@@ -33,8 +33,8 @@ task vcf_evaluation {
         }
 
         output {
-        File file1 = prefix + metrics.json
-        File file2 = prefix + summary.csv
+        File file1 = prefix + "metrics.json"
+        File file2 = prefix + "summary.csv"
         }
 }
 
